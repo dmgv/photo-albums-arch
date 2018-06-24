@@ -9,7 +9,121 @@
 </head>
 
 <body>
-  <h1>Diego Menezes</h1>
+  <div class="wrapper">
+
+    <nav id="sidebar" class="active">
+      <div class="sidebar-header">
+        <h3>Albums</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p>Choose an ablum</p>
+
+        <li class="active">
+          <a href="#">Viagens</a>
+        </li>
+        <li>
+          <li>
+            <a href="#">Carros</a>
+          </li>
+          <li>
+            <a href="#">Verão</a>
+          </li>
+      </ul>
+
+      <ul class="list-unstyled CTAs">
+        <li>
+          <a href="#" class="download">New Album</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Page Content Holder -->
+    <div id="content">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="navbar-btn active">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-align-justify"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="gallery-block grid-gallery">
+        <div class="container">
+          <div class="heading">
+            <h2>Grid Gallery</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image1.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image1.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image2.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image2.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image3.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image3.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image4.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image4.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image5.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image5.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image6.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image6.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image7.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image7.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image8.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image8.jpg">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4 item">
+              <a class="lightbox" href="./img/image9.jpg">
+                <img class="img-fluid image scale-on-hover" src="./img/image9.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
